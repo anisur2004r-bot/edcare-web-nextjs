@@ -16,11 +16,11 @@ import Footer from "@/componants/Footer";
 import FilterCategory from "./homeComponants/FilterCategory";
 
 const Home = async () => {
-  const res = await fetch("http://localhost:3000/coursecategores.json")
+  const res = await fetch("http://localhost:5000/courseCategory")
   const courseCategores = await res.json()
   console.log(courseCategores);
 
-  const res1 = await fetch("http://localhost:3000/course.json")
+  const res1 = await fetch("http://localhost:5000/courses")
   const courseDitails = await res1.json()
   console.log(courseDitails);
 

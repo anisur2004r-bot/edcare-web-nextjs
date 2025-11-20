@@ -4,7 +4,7 @@ import SectionCategores from '@/componants/HeaderComponants/SectionCategores';
 import React from 'react';
 
 const CourseCategores = async () => {
-    const res = await fetch("http://localhost:3000/categores.json");
+    const res = await fetch("http://localhost:5000/categories");
     const categores = await res.json();
 
     return (
