@@ -6,7 +6,7 @@ import Footer from '@/componants/Footer';
 const page = async ({ params }) => {
     const { id } = await params;
 
-    const res1 = await fetch(`http://localhost:5000/courses/${id}`);
+    const res1 = await fetch(`http://localhost:3000/course.json${id}`);
     const courseDitails = await res1.json();
 
     return (
