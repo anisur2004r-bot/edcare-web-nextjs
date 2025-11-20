@@ -1,0 +1,328 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "title": "Business Management",
+            "icon": "https://html.rrdevs.net/edcare/assets/img/icon/category-1.png"
+        },
+        {
+            "id": 2,
+            "title": "Arts & Design",
+            "icon": "https://html.rrdevs.net/edcare/assets/img/icon/category-2.png"
+        },
+        {
+            "id": 3,
+            "title": "Personal Development",
+            "icon": "https://html.rrdevs.net/edcare/assets/img/icon/category-3.png"
+        },
+        {
+            "id": 4,
+            "title": "Health & Fitness",
+            "icon": "https://html.rrdevs.net/edcare/assets/img/icon/category-4.png"
+        },
+        {
+            "id": 5,
+            "title": "Marketing",
+            "icon": "https://html.rrdevs.net/edcare/assets/img/icon/category-5.png"
+        },
+        {
+            "id": 6,
+            "title": "Business & Finance",
+            "icon": "https://html.rrdevs.net/edcare/assets/img/icon/category-6.png"
+        },
+        {
+            "id": 7,
+            "title": "Computer Science",
+            "icon": "https://html.rrdevs.net/edcare/assets/img/icon/category-7.png"
+        },
+        {
+            "id": 8,
+            "title": "Video & Photography",
+            "icon": "https://html.rrdevs.net/edcare/assets/img/icon/category-1.png"
+        },
+        {
+            "id": 9,
+            "title": "Data Science",
+            "icon": "https://html.rrdevs.net/edcare/assets/img/icon/category-2.png"
+        },
+        {
+            "id": 10,
+            "title": "IT Startup Agency",
+            "icon": "https://html.rrdevs.net/edcare/assets/img/icon/category-3.png"
+        },
+        {
+            "id": 11,
+            "title": "Software Company",
+            "icon": "https://html.rrdevs.net/edcare/assets/img/icon/category-5.png"
+        },
+        {
+            "id": 12,
+            "title": "High-Tech Company",
+            "icon": "https://html.rrdevs.net/edcare/assets/img/icon/category-6.png"
+        },
+        {
+            "id": 13,
+            "title": "3D Gaming Studio",
+            "icon": "https://html.rrdevs.net/edcare/assets/img/icon/category-7.png"
+        }
+    ],
+    "courseCategory": [
+        {
+            "id": 1,
+            "name": "Business",
+            "slug": "business",
+            "description": "Business strategy, entrepreneurship, and corporate skills.",
+            "coursesCount": 24,
+            "icon": "business-icon",
+            "isPopular": true
+        },
+        {
+            "id": 2,
+            "name": "Development",
+            "slug": "development",
+            "description": "Web, mobile, and software development related content.",
+            "coursesCount": 35,
+            "icon": "development-icon",
+            "isPopular": true
+        },
+        {
+            "id": 3,
+            "name": "Marketing",
+            "slug": "marketing",
+            "description": "Digital marketing, SEO, social media, and branding.",
+            "coursesCount": 18,
+            "icon": "marketing-icon",
+            "isPopular": true
+        },
+        {
+            "id": 4,
+            "name": "Finance",
+            "slug": "finance",
+            "description": "Investment, trading, and personal finance management.",
+            "coursesCount": 20,
+            "icon": "finance-icon",
+            "isPopular": false
+        },
+        {
+            "id": 5,
+            "name": "Gaming",
+            "slug": "gaming",
+            "description": "Game development, eSports, and gameplay tips.",
+            "coursesCount": 12,
+            "icon": "gaming-icon",
+            "isPopular": false
+        },
+        {
+            "id": 6,
+            "name": "Design",
+            "slug": "design",
+            "description": "UI/UX, graphic design, and creative tools.",
+            "coursesCount": 22,
+            "icon": "design-icon",
+            "isPopular": true
+        },
+        {
+            "id": 7,
+            "name": "Data Science",
+            "slug": "data-science",
+            "description": "Machine learning, AI, and data analysis.",
+            "coursesCount": 16,
+            "icon": "data-science-icon",
+            "isPopular": true
+        }
+    ],
+    "courses": [
+        {
+            "id": 1,
+            "categoryId": 2,
+            "title": "React Tutorial Beginners For Skills Building Career",
+            "isFree": true,
+            "lessons": 8,
+            "students": 50,
+            "views": "12K",
+            "instructorName": "Kevin Perry",
+            "instructorRole": "Instructor",
+            "rating": 4.7,
+            "price": 59,
+            "thumbnail": "https://html.rrdevs.net/edcare/assets/img/images/course-img-1.png",
+            "level": "Beginner",
+            "duration": "6h 30m"
+        },
+        {
+            "id": 2,
+            "categoryId": 2,
+            "title": "Complete HTML & CSS From Scratch",
+            "isFree": true,
+            "lessons": 10,
+            "students": 120,
+            "views": "18K",
+            "instructorName": "Maria Smith",
+            "instructorRole": "Instructor",
+            "rating": 4.8,
+            "price": 49,
+            "thumbnail": "https://html.rrdevs.net/edcare/assets/img/images/course-img-2.png",
+            "level": "Beginner",
+            "duration": "7h 10m"
+        },
+        {
+            "id": 3,
+            "categoryId": 2,
+            "title": "JavaScript Essentials For Web Developers",
+            "isFree": false,
+            "lessons": 12,
+            "students": 200,
+            "views": "22K",
+            "instructorName": "John Miller",
+            "instructorRole": "Instructor",
+            "rating": 4.9,
+            "price": 79,
+            "thumbnail": "https://html.rrdevs.net/edcare/assets/img/images/course-img-3.png",
+            "level": "Intermediate",
+            "duration": "9h 00m"
+        },
+        {
+            "id": 4,
+            "categoryId": 1,
+            "title": "Business Strategy For Startup Founders",
+            "isFree": true,
+            "lessons": 9,
+            "students": 80,
+            "views": "9K",
+            "instructorName": "Emily Clark",
+            "instructorRole": "Instructor",
+            "rating": 4.6,
+            "price": 59,
+            "thumbnail": "https://html.rrdevs.net/edcare/assets/img/images/course-img-1.png",
+            "level": "Intermediate",
+            "duration": "5h 45m"
+        },
+        {
+            "id": 5,
+            "categoryId": 1,
+            "title": "Entrepreneurship: Launch Your First Business",
+            "isFree": false,
+            "lessons": 11,
+            "students": 140,
+            "views": "15K",
+            "instructorName": "Robert King",
+            "instructorRole": "Instructor",
+            "rating": 4.8,
+            "price": 69,
+            "thumbnail": "https://html.rrdevs.net/edcare/assets/img/images/course-img-2.png",
+            "level": "Beginner",
+            "duration": "7h 20m"
+        },
+        {
+            "id": 6,
+            "categoryId": 1,
+            "title": "Leadership & Management Masterclass",
+            "isFree": false,
+            "lessons": 14,
+            "students": 210,
+            "views": "25K",
+            "instructorName": "Sophia Lee",
+            "instructorRole": "Instructor",
+            "rating": 4.9,
+            "price": 89,
+            "thumbnail": "https://html.rrdevs.net/edcare/assets/img/images/course-img-3.png",
+            "level": "Advanced",
+            "duration": "10h 00m"
+        },
+        {
+            "id": 7,
+            "categoryId": 3,
+            "title": "Digital Marketing Fundamentals",
+            "isFree": true,
+            "lessons": 8,
+            "students": 95,
+            "views": "11K",
+            "instructorName": "Daniel Ross",
+            "instructorRole": "Instructor",
+            "rating": 4.7,
+            "price": 59,
+            "thumbnail": "https://html.rrdevs.net/edcare/assets/img/images/course-img-1.png",
+            "level": "Beginner",
+            "duration": "6h 00m"
+        },
+        {
+            "id": 8,
+            "categoryId": 3,
+            "title": "SEO & Content Marketing Crash Course",
+            "isFree": false,
+            "lessons": 10,
+            "students": 150,
+            "views": "17K",
+            "instructorName": "Helen Carter",
+            "instructorRole": "Instructor",
+            "rating": 4.8,
+            "price": 69,
+            "thumbnail": "https://html.rrdevs.net/edcare/assets/img/images/course-img-2.png",
+            "level": "Intermediate",
+            "duration": "7h 40m"
+        },
+        {
+            "id": 9,
+            "categoryId": 3,
+            "title": "Social Media Marketing With Facebook & Instagram",
+            "isFree": false,
+            "lessons": 12,
+            "students": 230,
+            "views": "29K",
+            "instructorName": "Mark Allen",
+            "instructorRole": "Instructor",
+            "rating": 4.9,
+            "price": 79,
+            "thumbnail": "https://html.rrdevs.net/edcare/assets/img/images/course-img-3.png",
+            "level": "Intermediate",
+            "duration": "8h 30m"
+        },
+        {
+            "id": 10,
+            "categoryId": 4,
+            "title": "Personal Finance & Budgeting Basics",
+            "isFree": true,
+            "lessons": 7,
+            "students": 60,
+            "views": "8K",
+            "instructorName": "Andrew Klip",
+            "instructorRole": "Instructor",
+            "rating": 4.7,
+            "price": 59,
+            "thumbnail": "https://html.rrdevs.net/edcare/assets/img/images/course-img-1.png",
+            "level": "Beginner",
+            "duration": "4h 50m"
+        },
+        {
+            "id": 11,
+            "categoryId": 4,
+            "title": "Stock Market Investing For Beginners",
+            "isFree": false,
+            "lessons": 10,
+            "students": 130,
+            "views": "16K",
+            "instructorName": "Joseph Brown",
+            "instructorRole": "Instructor",
+            "rating": 4.8,
+            "price": 79,
+            "thumbnail": "https://html.rrdevs.net/edcare/assets/img/images/course-img-2.png",
+            "level": "Intermediate",
+            "duration": "6h 40m"
+        },
+        {
+            "id": 12,
+            "categoryId": 4,
+            "title": "Financial Analysis & Modeling",
+            "isFree": false,
+            "lessons": 13,
+            "students": 190,
+            "views": "21K",
+            "instructorName": "Natalie Green",
+            "instructorRole": "Instructor",
+            "rating": 4.9,
+            "price": 89,
+            "thumbnail": "https://html.rrdevs.net/edcare/assets/img/images/course-img-3.png",
+            "level": "Advanced",
+            "duration": "9h 15m"
+        }
+    ]
+}
